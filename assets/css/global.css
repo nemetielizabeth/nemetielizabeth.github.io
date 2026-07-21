@@ -92,14 +92,6 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
-.media-body > div:first-child {
-    font-size: 1.0rem;  /* institution and lab names */
-}
-
-.media-body .small {
-    font-size: 0.7rem;  /* position and date lines */
-}
-
 .media img[class*="mr-1"] {
     width: 55px !important;
     height: 55px !important;
