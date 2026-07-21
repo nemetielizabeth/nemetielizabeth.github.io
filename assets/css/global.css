@@ -104,6 +104,7 @@ div.lazy {
     width: 55px !important;
     height: 55px !important;
     object-fit: contain;
+    margin-right: 1rem !important;
 }
 
 .media.mb-1 {
