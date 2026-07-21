@@ -92,13 +92,28 @@ div.lazy {
     font-family: Source Code Pro, monospace;
 }
 
+/* ---- Education & Experience sections ---- */
+
+/* Institution / lab names */
+.media-body > div:first-child {
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+
+/* Position and date lines */
+.media-body .small {
+    font-size: 0.7rem;
+}
+
+/* Logo badges */
 .media img[class*="mr-1"] {
-    width: 55px !important;
-    height: 55px !important;
+    width: 50px !important;
+    height: 50px !important;
     object-fit: contain;
     margin-right: 1rem !important;
 }
 
+/* Spacing between entries */
 .media.mb-1 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.75rem !important;
 }
