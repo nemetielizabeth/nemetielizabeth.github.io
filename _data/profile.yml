@@ -4,8 +4,7 @@ navbar_name: "Elizabeth Nemeti (WIP)"
 positions:
 - name: Graduate Research Assistant
 - name: Emory University
-  logo: /assets/images/badges/MIT_Social_circle.png
-
+  logo: /assets/images/badges/emory.png
 
 email: "enemeti@emory.edu"
 # cv_link: /assets/files/CV.pdf
@@ -19,7 +18,6 @@ short_bio: >-
   <p>
     XYZ <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">link text cat</a> text.
   </p>
-
 
 portrait_url: /assets/images/photos/headshot.png
 
@@ -35,28 +33,23 @@ education:
   logo: /assets/images/badges/bristol.png
   position: B.Sc. in Biological Sciences
   date: 2019-2022
-
 experience:
 - name: BOZ Lab
   logo: /assets/images/badges/emory.png
   position: Graduate RA
   date: Summer 2025 - present
-  
 - name: Cognition and Visualization Lab
   logo: /assets/images/badges/emory.png
   position: Graduate RA
   date: Summer 2025
-  
 - name: Rathore Lab
   logo: /assets/images/badges/emory.png
   position: Graduate RA
   date: Spring 2025
-
 - name: Next-Gen Maternal-Infant Informatics Lab
   logo: /assets/images/badges/emory.png
   position: Graduate RA
   date: Fall 2024
-
 - name: Neuroinformatics & Intelligent Systems Lab
   logo: /assets/images/badges/emory.png
   position: Graduate RA
