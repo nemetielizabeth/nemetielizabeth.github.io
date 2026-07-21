@@ -93,11 +93,11 @@ div.lazy {
 }
 
 .media-body > div:first-child {
-    font-size: 1.15rem;
+    font-size: 0.9rem;  /* institution and lab names */
 }
 
 .media-body .small {
-    font-size: 0.95rem;
+    font-size: 0.6rem;  /* position and date lines */
 }
 
 .media img[class*="mr-1"] {
