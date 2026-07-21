@@ -6,6 +6,6 @@ pages:
 - name: Publications
   url: /publications
 - name: Service & Outreach
-  url: /blog
-- name: Google SCholar
-  url: /showcase
+  url: /service
+- name: Google Scholar
+  url: /googlescholar
