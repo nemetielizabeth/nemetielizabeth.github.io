@@ -101,7 +101,11 @@ div.lazy {
 }
 
 .media img[class*="mr-1"] {
-    width: 34px !important;
-    height: 34px !important;
+    width: 55px !important;
+    height: 55px !important;
     object-fit: contain;
+}
+
+.media.mb-1 {
+    margin-bottom: 1.25rem !important;
 }
