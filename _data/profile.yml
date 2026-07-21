@@ -2,7 +2,7 @@ primary_name: "Elizabeth Nemeti"
 navbar_name: "Elizabeth Nemeti (WIP)"
 
 positions:
-- name: PhD Candidate
+- name: Graduate Research Assistant
 - name: Emory University
   logo: /assets/images/badges/MIT_Social_circle.png
 
@@ -35,16 +35,38 @@ education:
   position: B.Sc. in Biological Sciences
   date: 2019-2022
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: BOZ Lab
+  logo: /assets/images/badges/emory.png
+  position: Graduate RA
+  date: Summer 2025 - present
+  
+- name: Cognition and Visualization Lab
+  logo: /assets/images/badges/emory.png
+  position: Graduate RA
+  date: Summer 2025
+  
+- name: Rathore Lab
+  logo: /assets/images/badges/emory.png
+  position: Graduate RA
+  date: Spring 2025
 
+- name: Next-Gen Maternal-Infant Informatics Lab
+  logo: /assets/images/badges/emory.png
+  position: Graduate RA
+  date: Fall 2024
+
+- name: Neuroinformatics & Intelligent Systems Lab
+  logo: /assets/images/badges/emory.png
+  position: Graduate RA
+  date: Fall 2023 - Spring 2025
+  
 awards:
-- name: Award Name 2
+- name: CompBio Asia Advanced Studies Workshop (NSF‑funded)
+  date: 2025
+- name: Emory Kharen Fulton Diversity Graduate Award Nominee
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Emory BMI Department Graduate Student Award for Community Service
+  date: 2024
+- name: Emory Women in Natural Sciences Fellowship
+  date: 2023
