@@ -49,9 +49,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .inline-badge {
-    height: 32px !important;
-    width: 32px !important;
-    object-fit: contain;
+    height: 16px;
     vertical-align: -10%;
     margin-right: 2px;
     line-break: unset;
@@ -100,4 +98,10 @@ div.lazy {
 
 .media-body .small {
     font-size: 0.95rem;
+}
+
+.media img[class*="mr-1"] {
+    width: 34px !important;
+    height: 34px !important;
+    object-fit: contain;
 }
