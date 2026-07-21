@@ -49,7 +49,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .inline-badge {
-    height: 26px;
+    height: 32px !important;
+    width: 32px !important;
+    object-fit: contain;
     vertical-align: -10%;
     margin-right: 2px;
     line-break: unset;
