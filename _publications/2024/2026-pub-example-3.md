@@ -7,7 +7,7 @@ pub_post:       ' <i>Studies in Health Technology and Informatics</i>, 336:1090-
 pub_date:       "2026"
 abstract: >-
   A scoping review mapping how voice diaries are used as digital biomarkers. Of 41 records screened, 10 met inclusion criteria; most analyzed transcripts rather than audio, and validation practices were inconsistent across studies.
-cover:          /assets/images/covers/voicediaries.jpg
+cover:          /assets/images/covers/miecover2.png
 authors:
   - Elizabeth Nemeti
   - Aravind Venkatachalam
