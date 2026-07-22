@@ -1,22 +1,20 @@
 ---
-title:          "Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac"
-date:           2024-05-12 00:01:00 +0800
+title:          "Voice Diaries as Digital Biomarkers: A Scoping Review"
+date:           2026-05-01 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
-pub_date:       "2024"
-semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
+pub:            "Medical Informatics Europe (MIE)"
+pub_post:       ' <i>Studies in Health Technology and Informatics</i>, 336:1090-1091.'
+pub_date:       "2026"
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Please put a tldr (too-long-didnt-read, 1~2 sentences) of your publication here. It is not recommended to put the actual abstract here because it is usually too long to fit in. $\LaTeX$ is supported. $a=b+c$.
-cover:          /assets/images/covers/cover3.jpg
+  A scoping review mapping how voice diaries are used as digital biomarkers. Of 41 records screened, 10 met inclusion criteria; most analyzed transcripts rather than audio, and validation practices were inconsistent across studies.
+cover:          /assets/images/covers/voicediaries.jpg
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Elizabeth Nemeti
+  - Aravind Venkatachalam
+  - Tricia Park
+  - Deanna M. Kaplan
+  - Selen Bozkurt
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://pubmed.ncbi.nlm.nih.gov/42175039/
+  Poster: /assets/files/MIE2026_poster.pdf
 ---
