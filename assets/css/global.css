@@ -107,8 +107,8 @@ div.lazy {
 
 /* Logo badges */
 .media img[class*="mr-1"] {
-    width: 50px !important;
-    height: 50px !important;
+    width: 40px !important;
+    height: 40px !important;
     object-fit: contain;
     margin-right: 1rem !important;
 }
