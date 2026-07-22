@@ -116,4 +116,5 @@ div.lazy {
 /* Spacing between entries */
 .media.mb-1 {
     margin-bottom: 1.75rem !important;
+    align-items: center;
 }
