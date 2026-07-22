@@ -31,13 +31,13 @@ education:
 - name: University of Bristol
   logo: /assets/badges/bristol.png
   position: B.Sc. in Biological Sciences
-  date: 2019-2022
+  date: 2019 - 2022
 
 experience:
 - name: BOZ Lab
   logo: /assets/badges/emory.png
   position: Graduate RA
-  date: Summer 2025 - present
+  date: 2025 - present
 - name: Cognition and Visualization Lab
   logo: /assets/badges/emory.png
   position: Graduate RA
@@ -53,7 +53,7 @@ experience:
 - name: Neuroinformatics & Intelligent Systems Lab
   logo: /assets/badges/emory.png
   position: Graduate RA
-  date: Fall 2023 - Spring 2025
+  date: 2023 - 2025
   
 awards:
 - name: CompBio Asia Advanced Studies Workshop (NSF‑funded)
