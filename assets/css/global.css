@@ -118,3 +118,16 @@ div.lazy {
     margin-bottom: 1.75rem !important;
     align-items: center;
 }
+
+/* ---- News ---- */
+
+.news-list {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Keep every news item the same size (overrides the Education/Experience rule above) */
+.news-list .media-body > div:first-child {
+    font-size: inherit;
+    line-height: inherit;
+}
