@@ -137,5 +137,7 @@ div.lazy {
 }
 
 .news-month {
-    flex: 0 0 2.75rem;
+    flex: 0 0 2.5rem;
+    margin-right: 1rem;
+    white-space: nowrap;
 }
