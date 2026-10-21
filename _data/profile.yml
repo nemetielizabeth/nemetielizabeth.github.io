@@ -3,8 +3,9 @@ navbar_name: "Elizabeth Nemeti (WIP)"
 
 positions:
 - name: Graduate Research Assistant
-- name: Emory University
-  logo: /assets/badges/emory.png
+
+location: Atlanta, GA
+institution: Emory University
 
 email: "enemeti@emory.edu"
 # cv_link: /assets/files/CV.pdf

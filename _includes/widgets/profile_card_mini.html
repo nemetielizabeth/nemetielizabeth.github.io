@@ -34,6 +34,21 @@
                     </div>
                 </div>
 
+                {% if site.data.profile.location or site.data.profile.institution %}
+                <div class="row small">
+                    <div class="col text-center">
+                        <div class="profile-meta">
+                            {% if site.data.profile.location %}
+                            <div><i class="fas fa-location-dot fa-fw"></i> {{ site.data.profile.location }}</div>
+                            {% endif %}
+                            {% if site.data.profile.institution %}
+                            <div><i class="fas fa-building-columns fa-fw"></i> {{ site.data.profile.institution }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+
                 <div class="row small">
                     <div class="col text-center">
                         <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">

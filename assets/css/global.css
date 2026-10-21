@@ -119,6 +119,23 @@ div.lazy {
     align-items: center;
 }
 
+/* ---- Profile card location / institution ---- */
+
+.profile-meta {
+    display: inline-block;
+    text-align: left;
+    margin: 0.4rem 0;
+}
+
+.profile-meta div {
+    margin: 0.15rem 0;
+}
+
+.profile-meta i {
+    color: #6c757d;
+    margin-right: 0.35rem;
+}
+
 /* ---- News ---- */
 
 .news-list {
