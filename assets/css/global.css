@@ -119,6 +119,12 @@ div.lazy {
     align-items: center;
 }
 
+/* ---- Profile card position title ---- */
+
+.profile-position {
+    font-size: 0.9rem;
+}
+
 /* ---- Profile card location / institution ---- */
 
 .profile-meta {
