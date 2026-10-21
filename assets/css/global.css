@@ -126,8 +126,16 @@ div.lazy {
     line-height: 1.4;
 }
 
-/* Keep every news item the same size (overrides the Education/Experience rule above) */
-.news-list .media-body > div:first-child {
-    font-size: inherit;
-    line-height: inherit;
+.news-year {
+    font-weight: 600;
+    padding-top: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.news-item {
+    margin-bottom: 0.35rem;
+}
+
+.news-month {
+    flex: 0 0 2.75rem;
 }
