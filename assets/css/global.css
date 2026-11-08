@@ -281,7 +281,18 @@ div.lazy {
 .teach-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+/* Diagrams and logos sit on white so they aren't cropped */
+.teach-image-photo {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eef0f2;
+}
+
+.teach-title a {
+    color: inherit;
 }
 
 .teach-title {
