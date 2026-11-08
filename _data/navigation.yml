@@ -1,9 +1,13 @@
 pages:
 # NOTE: `name` field must match the `navbar_title` field in the page's front matter to ensure the correct page is highlighted in the navbar.
 #       For example, the `navbar_title` field in `showcase.html` is "Showcase" and the `name` field here should also be "Showcase"
+- name: CV
+  url: /assets/files/Elizabeth-Nemeti-CV.pdf
 - name: Publications
   url: /publications
 - name: Broader Impacts
   url: /broader-impacts
+- name: Teaching
+  url: /teaching
 - name: Google Scholar
-  url: /googlescholar
+  url: https://scholar.google.com/citations?user=cV2POKIAAAAJ
