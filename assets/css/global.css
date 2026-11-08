@@ -165,13 +165,15 @@ div.lazy {
     white-space: nowrap;
 }
 
-/* ---- Navbar name: underline bar on hover ---- */
+/* ---- Navbar name and links: underline bar on hover ---- */
 
-.navbar-brand {
+.navbar-brand,
+.navbar-nav .nav-link {
     position: relative;
 }
 
-.navbar-brand::after {
+.navbar-brand::after,
+.navbar-nav .nav-link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -185,6 +187,16 @@ div.lazy {
 }
 
 .navbar-brand:hover::after,
-.navbar-brand:focus::after {
+.navbar-brand:focus::after,
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
     transform: scaleX(1);
+}
+
+/* Menu links have side padding on wider screens; keep the bar under the text only */
+@media (min-width: 576px) {
+    .navbar-nav .nav-link::after {
+        left: 0.5rem;
+        right: 0.5rem;
+    }
 }
