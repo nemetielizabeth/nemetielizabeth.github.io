@@ -164,3 +164,27 @@ div.lazy {
     margin-right: 1rem;
     white-space: nowrap;
 }
+
+/* ---- Navbar name: underline bar on hover ---- */
+
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.1rem;
+    height: 4px;
+    background-color: #bbbec2;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover::after,
+.navbar-brand:focus::after {
+    transform: scaleX(1);
+}
