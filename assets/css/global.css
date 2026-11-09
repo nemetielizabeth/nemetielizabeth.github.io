@@ -287,13 +287,13 @@ div.lazy {
     margin-bottom: 0.5rem;
 }
 
-/* Framed photos in a centered row, all the same height (like a photo strip) */
+/* Framed photos in a 2-column grid, all cropped to the same shape */
 .bi-photos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    margin: 0.75rem 0 1rem;
+    max-width: 640px;
+    margin: 0.75rem auto 1rem;
 }
 
 .bi-photos figure {
@@ -301,15 +301,19 @@ div.lazy {
     padding: 6px;
     background-color: #fff;
     border: 1px solid #dee2e6;
-    max-width: 100%;
 }
 
 .bi-photos img {
     display: block;
-    height: 180px;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 3 / 2;
     object-fit: cover;
+}
+
+@media (max-width: 575px) {
+    .bi-photos {
+        grid-template-columns: 1fr;
+    }
 }
 
 .bi-photos figcaption {
