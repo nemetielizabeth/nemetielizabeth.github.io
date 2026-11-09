@@ -103,6 +103,12 @@
                 </div>
             </div>
         </div>
+
+        {% if site.data.profile.status_note %}
+        <div class="status-note mt-3">
+            {{ site.data.profile.status_note }}
+        </div>
+        {% endif %}
     </div>
 </div>
 
