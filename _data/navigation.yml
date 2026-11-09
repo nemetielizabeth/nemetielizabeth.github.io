@@ -5,9 +5,7 @@ pages:
   url: /assets/files/Elizabeth-Nemeti-CV.pdf
 - name: Publications
   url: /publications
-- name: Broader Impacts
-  url: /broader-impacts
 - name: Teaching
   url: /teaching
-- name: Google Scholar
-  url: https://scholar.google.com/citations?user=cV2POKIAAAAJ
+- name: Broader Impacts
+  url: /broader-impacts
