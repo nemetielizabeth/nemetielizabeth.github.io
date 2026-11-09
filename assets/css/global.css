@@ -272,8 +272,41 @@ div.lazy {
     }
 }
 
+.teach-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .teach-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem 30px;
+    }
+}
+
 .teach-card {
     overflow: hidden;
+    display: grid;
+    /* image / title / meta / body share row heights with the other cards */
+    grid-row: span 4;
+    grid-template-rows: subgrid;
+    row-gap: 0;
+}
+
+.teach-card > .teach-title,
+.teach-card > .teach-meta,
+.teach-card > .teach-body {
+    padding: 0 1rem;
+}
+
+.teach-card > .teach-title {
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.teach-card > .teach-body {
+    padding-bottom: 1rem;
 }
 
 .teach-image {
