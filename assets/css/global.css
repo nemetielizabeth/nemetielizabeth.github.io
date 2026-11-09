@@ -264,6 +264,13 @@ div.lazy {
 
 /* ---- Teaching page cards ---- */
 
+/* Let card pages use more of a wide screen */
+@media (min-width: 1200px) {
+    .container-wide {
+        max-width: 1320px;
+    }
+}
+
 .teach-card {
     overflow: hidden;
 }
