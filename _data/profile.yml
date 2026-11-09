@@ -21,8 +21,8 @@ orcid: 0009-0009-3767-7414
 
 short_bio_text_justify: false
 short_bio: >-
-  <p> I’m Elizabeth Nemeti, I am currently working towards clinical machine learning applications for mental health through a doctoral program in Biomedical Informatics at Emory. My past experience lies in biology and bioinformatics for genetics. My current research interests include digital voice biomarkers, EMA, and improving mental health outcomes..
-  </p>
+  <p class="bio-pitch">I build <span class="bio-hl">machine learning tools</span> that learn from the way people talk about their day, to better understand and support mental health.</p>
+  <p class="bio-background">I'm a PhD candidate in Biomedical Informatics at Emory. My background is in biology and bioinformatics for genetics, and my current research interests include <span class="bio-hl-soft">digital voice biomarkers</span>, <span class="bio-hl-soft">ecological momentary assessment (EMA)</span>, and <span class="bio-hl-soft">improving mental health outcomes</span>.</p>
 
 portrait_url: /assets/images/photos/headshot.png
 

@@ -142,6 +142,37 @@ div.lazy {
     margin-right: 0.35rem;
 }
 
+/* ---- About Me card ---- */
+
+.about-card {
+    border-left: 6px solid #8fbbe8 !important;
+}
+
+.bio-pitch {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.bio-background {
+    color: #5c636a;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+/* Highlighter marks */
+.bio-hl {
+    background: linear-gradient(transparent 55%, #cfe3f8 55%);
+    padding: 0 2px;
+}
+
+.bio-hl-soft {
+    background: linear-gradient(transparent 60%, #dcebfa 60%);
+    color: #343a40;
+    padding: 0 1px;
+}
+
 /* ---- Status bubble under the name card ---- */
 
 .status-note {
