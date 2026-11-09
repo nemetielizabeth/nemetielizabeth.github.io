@@ -264,10 +264,11 @@ div.lazy {
 
 /* ---- Teaching page cards ---- */
 
-/* Let card pages use more of a wide screen */
+/* On wide screens, let the cards spill into the empty right margin
+   (up to 180px) while the name card stays where it is on every page */
 @media (min-width: 1200px) {
-    .container-wide {
-        max-width: 1320px;
+    .teach-extend {
+        margin-right: calc(-1 * clamp(0px, (100vw - 1140px) / 2 - 24px, 180px));
     }
 }
 
