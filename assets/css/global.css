@@ -283,8 +283,14 @@ div.lazy {
     white-space: nowrap;
 }
 
-.bi-earlier li {
-    margin-bottom: 0.5rem;
+.bi-list li {
+    margin-bottom: 0.6rem;
+    line-height: 1.6;
+}
+
+.bi-list .bi-when {
+    font-style: normal;
+    white-space: normal;
 }
 
 /* Framed photos in a 2-column grid, all cropped to the same shape */
